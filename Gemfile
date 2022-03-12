@@ -18,6 +18,8 @@ group :production do
   gem 'pg'
 end
 
+gem "net-http"
+
 gem 'carrierwave'
 
 # Use the Puma web server [https://github.com/puma/puma]
